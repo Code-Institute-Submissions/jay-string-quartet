@@ -1,5 +1,42 @@
 /* Google Fonts. CSS rules to specify families: font-family: 'Catamaran', sans-serif;
 font-family: 'Rosario', sans-serif; */
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-</style>
+
+/*----------Navigation----------*/
+.logo {
+    background: url("../images/jay.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120px;
+    min-width: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/* Bootstrap classes in the Navigation
+.navbar-nav {}
+.mr-auto {}
+.nav-link {}
+.active {}
+.nav-item {}
+.mr-2 {}
+.fixed-top {}
+.rounded-circle {}
+.mr-3 {}
+.container-fluid
+.navalert-container
+
+Also:
+ */
+
+ .heading-text-01 {
+    font-family: 'Rosario', sans-serif;
+    font-size: 46px;
+ }
+
+ .font-quotes_01 {
+     font-family: 'Catamaran', sans-serif;
+     font-size: 14px;
+ }
