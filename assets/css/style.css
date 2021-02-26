@@ -2,41 +2,97 @@
 font-family: 'Rosario', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/*----------Navigation----------*/
-.logo {
-    background: url("../images/jay.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 120px;
-    min-width: 120px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+/*----------Header----------*/
+
+.xyz {
+    color: #778DDC;
 }
 
-/* Bootstrap classes in the Navigation
-.navbar-nav {}
-.mr-auto {}
-.nav-link {}
-.active {}
-.nav-item {}
-.mr-2 {}
-.fixed-top {}
-.rounded-circle {}
-.mr-3 {}
-.container-fluid
-.navalert-container
+.flex-item {
+    text-align: right;
+}
 
-Also:
- */
+/*----------Navigation----------*/
+
+.nav {
+    color: #778DDC;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* ---------- Home page  ---------- */
+/*
+.container {
+max-width: 60%;
+margin-right: auto;
+margin-left: auto;
+}
+*/
 
  .heading-text-01 {
     font-family: 'Rosario', sans-serif;
-    font-size: 46px;
+    margin-top: 50px;    
  }
 
  .font-quotes_01 {
-     font-family: 'Catamaran', sans-serif;
-     font-size: 14px;
+     font-family: 'Catamaran', sans-serif;   
  }
+
+/*
+.jsq-photo-01 {
+    margin: 0 auto;
+    }
+*/
+/* ---------- Media queries  ---------- */
+
+@media screen and (min-width: 600px) {
+    .jsq-photo-01 {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .leading-text {
+        max-width: 60%;
+        margin: 0 auto;
+        
+    }
+}
+@media screen and (min-width: 600px) {
+    .font-quotes_01 {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+/* ---------- Text ----------*/
+
+.leading-text {
+    text-align: center;
+
+}
+
+/* ---------- Sorolla images ----------*/
+.tiffany {  
+  background-color: #cccccc; /* Used if the image is unavailable */
+   /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin: 0 auto;
+}
+
+/*
+.jsq-photo-01 {
+    max-height: 50px;
+}*/
