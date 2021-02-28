@@ -2,9 +2,9 @@
 font-family: 'Rosario', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/*----------Header----------*/
+/*----------------------------------------- Header */
 
-.xyz {
+.header-text {
     color: #778DDC;
 }
 
@@ -12,7 +12,7 @@ font-family: 'Rosario', sans-serif; */
     text-align: right;
 }
 
-/*----------Navigation----------*/
+/*----------------------------------------- Navigation */
 
 .nav {
     color: #778DDC;
@@ -30,7 +30,8 @@ font-family: 'Rosario', sans-serif; */
     top: 0;
 }
 
-/* ---------- Home page  ---------- */
+/*----------------------------------------- Home page */
+
 /*
 .container {
 max-width: 60%;
@@ -48,12 +49,18 @@ margin-left: auto;
      font-family: 'Catamaran', sans-serif;   
  }
 
+.leading-text {
+    text-align: center;
+}
+
 /*
 .jsq-photo-01 {
     margin: 0 auto;
+    max-height: 50px;
     }
 */
-/* ---------- Media queries  ---------- */
+
+/*----------------------------------------- Media queries */
 
 @media screen and (min-width: 600px) {
     .jsq-photo-01 {
@@ -75,14 +82,9 @@ margin-left: auto;
         margin: 0 auto;
     }
 }
-/* ---------- Text ----------*/
 
-.leading-text {
-    text-align: center;
+/*----------------------------------------- Sorolla images */
 
-}
-
-/* ---------- Sorolla images ----------*/
 .tiffany {  
   background-color: #cccccc; /* Used if the image is unavailable */
    /* You must set a specified height */
@@ -92,7 +94,192 @@ margin-left: auto;
   margin: 0 auto;
 }
 
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.p-0 {
+    padding: 0!important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
+.row {
+	display: ms flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.home-recordings-section {
+	padding-bottom: 80px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.recordings-title-bg {
+    background-color: rgba(203, 211, 223, 0.28);
+}
+
 /*
-.jsq-photo-01 {
-    max-height: 50px;
-}*/
+.recordings-section {
+}
+*/
+
+.recordings-section-title {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*
+.recordings-title-sm {
+}
+*/
+
+/* All this for a single dividing line */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* connected
+.standard-divider {
+    width: 450px;
+    height: 0px;
+    margin: 0 auto;
+    border: 3px solid rgba(67, 62, 58, 0.75);
+}
+
+. recordings-title-sm {
+}
+
+#sections-divider-sm {
+    margin: 0 auto;
+    border: 1px solid rgba(67, 62, 58, 0.75);
+}
+connected*/
+/* All this for a single dividing line */
+
+/*
+. recordings-info {
+}
+*/
+
+.recordings-info-bg {
+    background-color: rgba(255, 255, 255);
+}
+
+.tiffany-painting {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+
+/* This code taken from https://flaviocopes.com/responsive-youtube-videos/ */
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*
+.recordings-md {
+}
+*/
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: #E3B723;
+    color: #43257F;
+    height: 45px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #43257F;
+    background: #E3B723;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 0;
+}
