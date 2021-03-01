@@ -62,14 +62,14 @@ margin-left: auto;
 
 /* ---------- About page ---------- */
 
-.jsq-photo-02 {
-    background: url(../images/jsq-photo-02.jpg);
+.jaysq-photo-02 {
+    background: url(../images/jaysq-photo-02.jpg);
     opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size: cover;    
     min-height: 527px;
+}
 
 .about-title {
     text-align: center;
@@ -111,6 +111,27 @@ margin-left: auto;
     color: #433e3a;
 }
 
+
+/* ---------- Calendar page ---------- */
+
+.beakfield-photo {
+    background: url(../images/beakfield-photo-01.jpg);
+     opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 300px;
+}
+
+colourchart-image {
+    background: url(../images/colourchart.jpg);
+     opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 300px;
+}
+
 /* ---------- Footer ---------- */
 
 footer {
@@ -120,28 +141,33 @@ footer {
     margin: 0;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .social-links {
     padding-bottom: 15px;
 }
 
-.social-links li a i {
+.fa-icon {
     width: 36px;
     height: 36px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 16px;
+    line-height: 8px;
     text-align: center;
     color: #43257F;
-    background: #E3B723;
+    /* background: #43257F; */
 }
 
 .music-icon {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 13x;
     line-height: 7px;
+    color: #43257F;
 }
 
 /*
