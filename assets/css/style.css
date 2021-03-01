@@ -60,6 +60,101 @@ margin-left: auto;
     }
 */
 
+/* ---------- About page ---------- */
+
+.jsq-photo-02 {
+    background: url(../images/jsq-photo-02.jpg);
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 527px;
+
+.about-title {
+    text-align: center;
+    margin-top: 140px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+.standard-divider {
+    width: 450px;
+    height: 0px;
+    margin: 0 auto;
+    border: 3px solid rgba(67, 62, 58, 0.75);
+}
+
+.core-features-bg, .about-features-bg, .staircase-title-bg {
+    background-color: rgba(203, 211, 223, 0.28);
+}
+
+.about-1-features-details {
+    padding-top: 0px;
+    padding-bottom: 150px;
+}
+
+.features-structure {
+    padding-top: 25px;
+}
+
+.about-1-features {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about-1-features {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #433e3a;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: #E3B723;
+    color: #43257F;
+    height: 45px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 36px;
+    height: 36px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #43257F;
+    background: #E3B723;
+}
+
+.music-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+}
+
+/*
+.social-links li a i:hover {
+    background: #e84610;
+}
+*/
+
+#footer-details {
+    padding: 0px;
+}
+
+
 /*----------------------------------------- Media queries */
 
 @media screen and (min-width: 600px) {
@@ -251,35 +346,4 @@ connected*/
 }
 */
 
-/* ---------- Footer ---------- */
 
-footer {
-    background-color: #E3B723;
-    color: #43257F;
-    height: 45px;
-    margin: 0;
-}
-
-.social-links {
-    padding-bottom: 0;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #43257F;
-    background: #E3B723;
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
-
-#footer-details {
-    padding: 0;
-}

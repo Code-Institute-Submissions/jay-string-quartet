@@ -22,10 +22,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav header-text ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About <span class="sr-only"></span></a>
+                    </li>
+
+                    <!--
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" 
+                        <a class="nav-link dropdown-toggle navbarDropdown" href="about.html" role="button" data-toggle="dropdown" 
                         aria-haspopup="true" aria-expanded="false">About
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -34,6 +39,8 @@
                             <a class="dropdown-item" href="#">Videos</a>
                         </div>
                     </li>
+                    -->
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" 
                         aria-haspopup="true" aria-expanded="false">Music
@@ -54,7 +61,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col jsq-photo-01">
-                    <img class="img-fluid" src="assets/images/jay-string-quartet-photo.jpg">
+                    <img class="img-fluid" src="assets/images/jaysq-photo-01.jpg">
              </div>
             </div>   
             <div class="row">
@@ -69,8 +76,12 @@
             </div>
         </div>        
     </section>
+    <!--This container structure is based on that of another milestone project, https://mkthewlis.github.io/Milestone-Project-1/index.html, which my mentor shared with me. -->
     <section class="container-fluid" p-0>
     <div class="row no-gutters home-recordings-section">
+        <div class="col-12 col-lg-6 tiffany-painting recordings-md">
+            <img class="img-fluid" src="assets/images/tiffany.jpg">
+        </div>
 		<div class="col-12 col-lg-6 recordings-title-bg">
 			<div class="recordings-text">
 				<div class="recordings-section-title" id="recordings-title-sm">
@@ -96,57 +107,51 @@
                 </div>
 			</div>
 		</div>
-        <div class="col-12 col-lg-6 tiffany-painting recordings-md">
-            <img class="img-fluid" src="assets/images/tiffany.jpg">
-        </div>
     </div>
     </section>
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
-             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-8">
             </div>
             <div class="col-sm-4">
-                 <ul class="list-inline social-links">
+                <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>                            
+                        <a target="_blank" href="https://twitter.com/?lang=en-gb">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>                            
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-spotify" aria-hidden="true"></i>
+                        <a target="_blank" href="https://www.spotify.com/uk/">
+                            <i class="fa fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
                         </a>
-                    </li>
+                    </li>                    
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-deezer" aria-hidden="true"></i>
+                        <a target="_blank" href="https://www.deezer.com/en/">
+                            <i class="fa fa-deezer" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="idagio-icon" aria-hidden="true"></i>
-                                <img src="assets/images/idagio.jpg">
+                        <a target="_blank" href="https://www.idagio.com/">                            
+                                <img src="assets/images/idagio-icon.png" class="music-icon" aria-hidden="true">
                             <span class="sr-only">Idagio</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
+                        <a target="_blank" href="https://www.qobuz.com/gb-en/discover">                        
+                                <img src="assets/images/qobuz-icon.png" class="music-icon" aria-hidden="true">
+                            <span class="sr-only">Qobuz</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
+                        <a target="_blank" href="https://www.primephonic.com/">
+                            <img src="assets/images/primephonic-icon.png" class="music-icon" aria-hidden="true">
+                            <span class="sr-only">Primephonic</span>
                         </a>
-                    </li>
+                    </li>                    
                 </ul>
             </div>
         </div>          
