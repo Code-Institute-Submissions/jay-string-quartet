@@ -10,24 +10,24 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">            
+        <!-- A Bootstrap navbar is the basis for the navigation here. -->
+        <nav class="navbar fixed-top jaynav navbar-expand-lg navbar-light">            
             <a class="navbar-brand" href="index.html">
                 <img src="/assets/images/jay.jpg" height="50px" alt="jay">
             </a>
-                     
+
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav header-text ml-auto">
+                <ul class="navbar-nav header-text jnav-text ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About <span class="sr-only"></span></a>
                     </li>
-
                     <!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle navbarDropdown" href="about.html" role="button" data-toggle="dropdown" 
@@ -40,7 +40,10 @@
                         </div>
                     </li>
                     -->
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="calendar.html">Calendar <span class="sr-only"></span></a>
+                    </li>
+                    <!--
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" 
                         aria-haspopup="true" aria-expanded="false">Music
@@ -49,39 +52,49 @@
                             <a class="dropdown-item" href="#">Concerts</a>
                             <a class="dropdown-item" href="#">Recordings</a>
                         </div>
-                    </li>      
+                    </li>
+                -->   
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>     
     </header>
+    <!---------- section: hero image ---------->
     <section>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row jay-top-01">
                 <div class="col jsq-photo-01">
                     <img class="img-fluid" src="assets/images/jaysq-photo-01.jpg">
              </div>
             </div>   
-            <div class="row">
-                <div class="col leading-text">                 
-                    <p class="lead font-weight-bold heading-text-01">Jay String Quartet</p>
+            <div class="row jay-top-02">
+                <div class="col">
+                    <p class="leading-text">Jay String Quartet</p>
+                    <p  class="jay-quote">"To hear the Jay String Quartet is to hear chamber music afresh and be
+                        transported back to an earlier age ..." The Financial Times</p>
                 </div>
-            </div>
-            <div class="row">
-                <blockquote class="font-quotes_01" blockquote>
-                    <h6>"To hear the Jay String Quartet is to hear music chamber music afresh and be transported back to another age ..." The Financial Times</h6>
-                </blockquote>
-            </div>
+            </div>            
         </div>        
     </section>
     <!--This container structure is based on that of another milestone project, https://mkthewlis.github.io/Milestone-Project-1/index.html, which my mentor shared with me. -->
+    <!---------- section: Sorolla-Tiffany ---------->
     <section class="container-fluid" p-0>
-    <div class="row no-gutters home-recordings-section">
-        <div class="col-12 col-lg-6 tiffany-painting recordings-md">
-            <img class="img-fluid" src="assets/images/tiffany.jpg">
+        <div class="row no-gutters home-recordings-section">
+            <div class="col-12 col-lg-6 tiffany-painting recordings-md sorolla-tiffany">
+             <!--   <img class="img-fluid" src="assets/images/tiffany.jpg"> -->
+            </div>
+            <div class="col-12 col-lg-6 jay-album">
+                <p><span class="album-quote">“Gorgeous – the Jays evoke not just the visual world of the early twentieth century, but the breezes and summer blooms”.</span>Gramophone.</p>
+                <p><span class="album-text">Our new recording, <span class="italic">Painting with Music</span>, takes the two classic “impressionist” quartets of Debussy and Ravel, and sets them against a recording of the new work for string quartet by composer and painter Charlie Seaborn, “Fractured colour”, written for the Jay String Quartet.</span></p>
+                <p><span class="album-text">Find out more:</span></p>
+                <a class="alpha" target="_blank" href="https://outhere-music.com/en/labels/alpha"></a>
+            </div>
         </div>
+    </section>
+    <!---------- section: videos ---------->
+    <section>
 		<div class="col-12 col-lg-6 recordings-title-bg">
 			<div class="recordings-text">
 				<div class="recordings-section-title" id="recordings-title-sm">
@@ -90,24 +103,22 @@
 					<h3>Videos of our recent concerts</h3>
                     <div class="video">
                         <hr>
-                            <div class="video-container" style="padding-top: 10px;">
-                                <iframe src="https://www.youtube-nocookie.com/embed/OtbrapRbqKo?start=875" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="fitvid0">
-                                </iframe>
-                            </div>
+                        <div class="video-container" style="padding-top: 10px;">
+                            <iframe src="https://www.youtube-nocookie.com/embed/OtbrapRbqKo?start=875" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="fitvid0">
+                            </iframe>
+                        </div>
                         <hr>
-                            <div class="video-container" style="padding-top: 10px;">
-                                <iframe src="https://www.youtube-nocookie.com/embed/OtbrapRbqKo?start=875" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="fitvid0">
-                                </iframe>
-                            </div>
+                        <div class="video-container" style="padding-top: 10px;">
+                            <iframe src="https://www.youtube-nocookie.com/embed/OtbrapRbqKo?start=875" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="fitvid0">
+                            </iframe>
+                        </div>
                     </div>
-
 				</div>
 			    <div class="recordings-info recordings-info-bg">
 		            <p>Text</p>
                 </div>
 			</div>
-		</div>
-    </div>
+		</div>    
     </section>
 
     <footer class="container-fluid">
@@ -118,19 +129,19 @@
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/?lang=en-gb">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>                            
+                            <i class="fa fa-twitter fa-icon" aria-hidden="true"></i>                            
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.spotify.com/uk/">
-                            <i class="fa fa-spotify" aria-hidden="true"></i>
+                            <i class="fa fa-spotify fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
                         </a>
                     </li>                    
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.deezer.com/en/">
-                            <i class="fa fa-deezer" aria-hidden="true"></i>
+                            <i class="fa fa-deezer fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
                     </li>

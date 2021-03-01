@@ -2,26 +2,14 @@
 font-family: 'Rosario', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/*----------------------------------------- Header */
+/* ---------- Header ---------- */
 
 .header-text {
-    color: #778DDC;
+    color: #748795;
 }
 
 .flex-item {
     text-align: right;
-}
-
-/*----------------------------------------- Navigation */
-
-.nav {
-    color: #778DDC;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 18px;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
 }
 
 .logo {
@@ -30,15 +18,67 @@ font-family: 'Rosario', sans-serif; */
     top: 0;
 }
 
-/*----------------------------------------- Home page */
+.jaynav {
+    opacity: 1.0;
+    background-color: #ffffff;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: #E3B723;
+    color: #43257F;
+    height: 45px;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.fa-icon {
+    width: 36px;
+    height: 36px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 8px;
+    text-align: center;
+    color: #43257F;
+    /* background: #43257F; */
+}
+
+.music-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 13x;
+    line-height: 7px;
+    color: #43257F;
+}
 
 /*
-.container {
-max-width: 60%;
-margin-right: auto;
-margin-left: auto;
+.social-links li a i:hover {
+    background: #e84610;
 }
 */
+
+#footer-details {
+    padding: 0px;
+}
+
+/* ---------- Fonts ----------*/
+
+.jnav-text {
+    color: #43257F;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
  .heading-text-01 {
     font-family: 'Rosario', sans-serif;
@@ -50,8 +90,66 @@ margin-left: auto;
  }
 
 .leading-text {
+    font-family: 'Rosario', sans-serif;
+    font-size: 35px;
+    color: #43257F;
+    font-weight: 700;
+    margin-top: 50px;
     text-align: center;
 }
+
+.jay-quote {
+    margin-top: 15px;
+    font-family: 'Rosario', sans-serif;
+    font-size: 16px;
+    color: #43257F;
+    text-align: center;
+}
+
+.album-quote {
+    margin-top: 15px;
+    font-family: 'Rosario', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #253B46;
+    text-align: center;
+}
+.album-text {
+    margin-top: 15px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.italic {
+    font-style: italic;
+}
+/* .text-uppercase {
+    
+} */
+
+/* ---------- Padding, margins etc ----------*/
+
+.jay-top-01 {
+    padding-top: 65px;
+}
+
+.jay-top-02 {
+    padding-top: 15px;
+}
+/* ---------- Home page ---------- */
+
+.jay-album {
+    padding-left: 15px;
+}
+/*
+.container {
+max-width: 60%;
+margin-right: auto;
+margin-left: auto;
+}
+*/
 
 /*
 .jsq-photo-01 {
@@ -111,7 +209,6 @@ margin-left: auto;
     color: #433e3a;
 }
 
-
 /* ---------- Calendar page ---------- */
 
 .beakfield-photo {
@@ -132,56 +229,9 @@ colourchart-image {
     min-height: 300px;
 }
 
-/* ---------- Footer ---------- */
+/* ---------- Contact page ---------- */
 
-footer {
-    background-color: #E3B723;
-    color: #43257F;
-    height: 45px;
-    margin: 0;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.fa-icon {
-    width: 36px;
-    height: 36px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 16px;
-    line-height: 8px;
-    text-align: center;
-    color: #43257F;
-    /* background: #43257F; */
-}
-
-.music-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    font-size: 13x;
-    line-height: 7px;
-    color: #43257F;
-}
-
-/*
-.social-links li a i:hover {
-    background: #e84610;
-}
-*/
-
-#footer-details {
-    padding: 0px;
-}
-
-
-/*----------------------------------------- Media queries */
+/* ---------- Media queries ---------- */
 
 @media screen and (min-width: 600px) {
     .jsq-photo-01 {
@@ -204,16 +254,41 @@ footer {
     }
 }
 
-/*----------------------------------------- Sorolla images */
+/* ---------- Images, photos, videos ---------- */
 
-.tiffany {  
-  background-color: #cccccc; /* Used if the image is unavailable */
-   /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  margin: 0 auto;
+.sorolla-tiffany {
+    background: url(../images/tiffany.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 527px;
 }
+
+.alpha {
+    background-image: url(../images/alpha-icon.png);
+}
+/* This code taken from https://flaviocopes.com/responsive-youtube-videos/ */
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*
 
 .container-fluid {
 	width: 100%;
@@ -347,29 +422,7 @@ connected*/
     margin-top: 0px;
 }
 
-/* This code taken from https://flaviocopes.com/responsive-youtube-videos/ */
-.video-container {
-    overflow: hidden;
-    position: relative;
-    width:100%;
-}
-
-.video-container::after {
-    padding-top: 56.25%;
-    display: block;
-    content: '';
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 /*
 .recordings-md {
 }
 */
-
-
