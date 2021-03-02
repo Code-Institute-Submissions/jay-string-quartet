@@ -129,6 +129,55 @@ footer {
     
 } */
 
+
+/* ---------- Images, photos, videos ---------- */
+
+#ptg-tiffany {
+    
+    background: url(../images/tiffany.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 527px;
+}
+
+.sales-item {
+    display: block;
+    width: 50px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.alpha {
+    background: url(../images/alpha-icon.png);
+}
+/* This code taken from https://flaviocopes.com/responsive-youtube-videos/ */
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*
+
 /* ---------- Padding, margins etc ----------*/
 
 .jay-top-01 {
@@ -137,6 +186,25 @@ footer {
 
 .jay-top-02 {
     padding-top: 15px;
+}
+
+#sales-icons {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.sorolla-tiffany {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#about-ptg-tiffany {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;  
 }
 /* ---------- Home page ---------- */
 
@@ -254,52 +322,6 @@ colourchart-image {
     }
 }
 
-/* ---------- Images, photos, videos ---------- */
-
-.sorolla-tiffany {
-    background: url(../images/tiffany.jpg);
-    opacity: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
-    min-height: 527px;
-}
-
-.sales-item {
-    display: block;
-    width: 50px;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.alpha {
-    background: url(../images/alpha-icon.png);
-}
-/* This code taken from https://flaviocopes.com/responsive-youtube-videos/ */
-.video-container {
-    overflow: hidden;
-    position: relative;
-    width:100%;
-}
-
-.video-container::after {
-    padding-top: 56.25%;
-    display: block;
-    content: '';
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-/*
 
 .container-fluid {
 	width: 100%;
