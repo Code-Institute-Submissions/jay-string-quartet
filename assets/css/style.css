@@ -232,9 +232,17 @@ footer {
     padding-right: 15px;
 }
 
-. container-video {
+#about-videos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;      
+}
+/*
+.container-video {
 
 }
+*/
 
 /* ---------- Home page ---------- */
 
