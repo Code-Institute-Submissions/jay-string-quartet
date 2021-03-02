@@ -125,17 +125,35 @@ footer {
 .italic {
     font-style: italic;
 }
+
+#video-head {
+    font-family: 'Rosario', sans-serif;
+    font-size: 25px;
+    color: #43257F;
+    font-weight: 700;
+    margin-top: 0px;
+    text-align: center;
+}
+
 /* .text-uppercase {
     
 } */
 
+/* ---------- Colours ---------- */
+
+.bg-color-tiffany {
+    background-color: #d4d4d1;
+}
+
+.bg-color-videos {
+    background-color: #889C91;
+}
 
 /* ---------- Images, photos, videos ---------- */
 
 #ptg-tiffany {
     
     background: url(../images/tiffany.jpg);
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -178,7 +196,7 @@ footer {
 }
 /*
 
-/* ---------- Padding, margins etc ----------*/
+/* ---------- Padding, margins, backgrounds, etc ----------*/
 
 .jay-top-01 {
     padding-top: 65px;
@@ -206,6 +224,18 @@ footer {
     padding-left: 15px;
     padding-right: 10px;  
 }
+
+.jay-videos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+. container-video {
+
+}
+
 /* ---------- Home page ---------- */
 
 .jay-album {
@@ -243,6 +273,15 @@ margin-left: auto;
     padding-bottom: 50px;
     padding-right: 30px;
 }
+
+/*
+#videos-divider {
+    width: 50px;
+    height: 5px;
+    margin: 0 auto;
+    border: 3px solid #889C91;
+}
+*/
 
 .standard-divider {
     width: 450px;
@@ -353,7 +392,8 @@ colourchart-image {
 }
 
 .home-recordings-section {
-	padding-bottom: 80px;
+    padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .col-12 {
@@ -368,10 +408,11 @@ colourchart-image {
     }
 }
 
+/*
 .recordings-title-bg {
     background-color: rgba(203, 211, 223, 0.28);
 }
-
+*/
 /*
 .recordings-section {
 }
