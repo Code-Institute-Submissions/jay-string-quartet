@@ -28,7 +28,7 @@ font-family: 'Rosario', sans-serif; */
 footer {
     background-color: #E3B723;
     color: #43257F;
-    height: 45px;
+    height: 0px;
     margin: 0;
 }
 
@@ -67,7 +67,8 @@ footer {
 }
 */
 
-#footer-details {
+.footer-details {
+    background-color: #E3B723;
     padding: 0px;
 }
 
@@ -152,8 +153,15 @@ footer {
 /* ---------- Images, photos, videos ---------- */
 
 #ptg-tiffany {
-    
     background: url(../images/tiffany.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 527px;
+}
+
+#ptg-toffany {    
+    background: url(../images/fan.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -193,6 +201,15 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+#ph-bk {
+    background: url(../images/beakfield-photo-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 527px;
 }
 /*
 
@@ -238,6 +255,7 @@ footer {
     padding-left: 15px;
     padding-right: 10px;      
 }
+
 /*
 .container-video {
 
@@ -506,5 +524,41 @@ connected*/
 
 /*
 .recordings-md {
+}
+*/
+
+/* ---------- Calendar ---------- */
+#portfolio-work {
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+@media (max-width: 767px) {
+    .visible-xs {
+    display: block!important;
+    }
+}
+
+.visible-xs {
+    display: none;
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+/* 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+col- {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 */
