@@ -2,77 +2,7 @@
 font-family: 'Rosario', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/* ---------- Header ---------- */
-
-.header-text {
-    color: #748795;
-}
-
-.flex-item {
-    text-align: right;
-}
-
-.logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.jaynav {
-    opacity: 1.0;
-    background-color: #ffffff;
-}
-
-/* ---------- Footer ---------- */
-
-footer {
-    background-color: #E3B723;
-    color: #43257F;
-    height: 0px;
-    margin: 0;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.fa-icon {
-    width: 36px;
-    height: 36px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 16px;
-    line-height: 8px;
-    text-align: center;
-    color: #43257F;
-    /* background: #43257F; */
-}
-
-.music-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    font-size: 13x;
-    line-height: 7px;
-    color: #43257F;
-}
-
-/*
-.social-links li a i:hover {
-    background: #e84610;
-}
-*/
-
-.footer-details {
-    background-color: #E3B723;
-    padding: 0px;
-}
-
-/* ---------- Fonts ----------*/
+/* ---------- Fonts & text ----------*/
 
 .jnav-text {
     color: #43257F;
@@ -120,7 +50,13 @@ footer {
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #000000;
+    color: #000000;    
+}
+
+.festival-text {
+    display: inline-block;
+    text-align: left;
+    margin: 5px;
 }
 
 .italic {
@@ -144,15 +80,21 @@ footer {
 
 .bg-color-tiffany {
     background-color: #d4d4d1;
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 
 .bg-color-videos {
     background-color: #889C91;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* ---------- Images, photos, videos ---------- */
 
-#ptg-tiffany {
+.ptg-tiffany {
     background: url(../images/tiffany.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -160,12 +102,33 @@ footer {
     min-height: 527px;
 }
 
-#ptg-toffany {    
-    background: url(../images/fan.jpg);
+.ptg-running {
+    background: url(../images/running-ptg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
     min-height: 527px;
+}
+
+.photo-children {
+   /*  background: url(../images/children-photo.jfif);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border: 5px
+}
+
+.photo-baby {    
+    /* background: url(../images/baby-photo.jpg);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .sales-item {
@@ -182,6 +145,7 @@ footer {
 .alpha {
     background: url(../images/alpha-icon.png);
 }
+
 /* This code taken from https://flaviocopes.com/responsive-youtube-videos/ */
 .video-container {
     overflow: hidden;
@@ -203,13 +167,26 @@ footer {
     height: 100%;
 }
 
-
 #ph-bk {
     background: url(../images/beakfield-photo-01.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
     min-height: 527px;
+}
+
+.jaysq-photo-03 {
+    background: url(../images/jaysq-photo-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 527px;
+    }
+
+#treble {
+    margin-top: 20px;
+    margin-right: -15px;
+    padding-right: -15px;
 }
 /*
 
@@ -220,7 +197,11 @@ footer {
 }
 
 .jay-top-02 {
-    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.contact-top {
+    margin-top: 50px;
 }
 
 #sales-icons {
@@ -257,10 +238,113 @@ footer {
 }
 
 /*
+.beakfield {
+    margin: px;
+}
+*/
+/*
 .container-video {
 
 }
 */
+
+/* ---------- Media queries ---------- */
+
+@media screen and (min-width: 600px) {
+    .jsq-photo-01 {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .leading-text {
+        max-width: 60%;
+        margin: 0 auto;
+        
+    }
+}
+@media screen and (min-width: 600px) {
+    .font-quotes_01 {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .visible-xs {
+    display: block;
+    }
+}
+
+/* ---------- Header ---------- */
+
+.header-text {
+    color: #748795;
+}
+
+.flex-item {
+    text-align: right;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.jaynav {
+    opacity: 1.0;
+    background-color: #ffffff;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: #E3B723;
+    color: #43257F;
+    height: 0px;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.fa-icon {
+    width: 35px;
+    height: 35px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    color: #43257F;
+    /* background: #43257F; */
+}
+/*
+.music-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 13x;
+    line-height: 20px;
+    color: #43257F;
+}
+*/
+/*
+.social-links li a i:hover {
+    background: #e84610;
+}
+*/
+
+.footer-details {
+    background-color: #E3B723;
+    }
 
 /* ---------- Home page ---------- */
 
@@ -300,6 +384,11 @@ margin-left: auto;
     padding-right: 30px;
 }
 
+.about-block {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
 /*
 #videos-divider {
     width: 50px;
@@ -346,7 +435,7 @@ margin-left: auto;
 
 .beakfield-photo {
     background: url(../images/beakfield-photo-01.jpg);
-     opacity: 0.9;
+     opacity: 1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -355,7 +444,7 @@ margin-left: auto;
 
 colourchart-image {
     background: url(../images/colourchart.jpg);
-     opacity: 0.9;
+    opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -363,76 +452,6 @@ colourchart-image {
 }
 
 /* ---------- Contact page ---------- */
-
-/* ---------- Media queries ---------- */
-
-@media screen and (min-width: 600px) {
-    .jsq-photo-01 {
-        max-width: 60%;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .leading-text {
-        max-width: 60%;
-        margin: 0 auto;
-        
-    }
-}
-@media screen and (min-width: 600px) {
-    .font-quotes_01 {
-        max-width: 60%;
-        margin: 0 auto;
-    }
-}
-
-
-.container-fluid {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.p-0 {
-    padding: 0!important;
-    padding-top: 0px !important;
-    padding-right: 0px !important;
-    padding-bottom: 0px !important;
-    padding-left: 0px !important;
-}
-
-.row {
-	display: ms flexbox;
-	display: flex;
-	flex-wrap: wrap;
-	margin-right: 15px;
-	margin-left: 15px;
-}
-
-.no-gutters {
-	margin-right: 0;
-	margin-left: 0;
-}
-
-.home-recordings-section {
-    padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.col-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-@media (min-width: 992px) {
-    .col-lg-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-}
 
 /*
 .recordings-title-bg {
@@ -492,7 +511,7 @@ hr {
     border: 3px solid rgba(67, 62, 58, 0.75);
 }
 
-. recordings-title-sm {
+.recordings-title-sm {
 }
 
 #sections-divider-sm {
@@ -503,7 +522,7 @@ connected*/
 /* All this for a single dividing line */
 
 /*
-. recordings-info {
+.recordings-info {
 }
 */
 
@@ -533,12 +552,6 @@ connected*/
     padding: 80px 0;
 }
 
-@media (max-width: 767px) {
-    .visible-xs {
-    display: block!important;
-    }
-}
-
 .visible-xs {
     display: none;
 }
@@ -548,12 +561,18 @@ connected*/
     overflow-x: auto;
 }
 
+.calendar-style {
+    display: flex;
+    align-items: center;
+}
+
+/* ---------- Other ---------- */
+
 /* 
 .row {
     margin-right: -15px;
     margin-left: -15px;
 }
-
 
 col- {
     position: relative;
@@ -562,3 +581,50 @@ col- {
     padding-left: 15px;
 }
 */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.p-0 {
+    padding: 0!important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
+/*
+.row {
+    display: ms flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}*/
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.home-recordings-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

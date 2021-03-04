@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <title>Jay String Quartet</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -61,16 +62,87 @@
             </div>
         </nav>     
     </header>
+<!-- section: contact us heading -->
+    <section class="container-fluid bg-color-tiffany">
+        <div class="container sorolla-tiffany">
+            <div class="row no-gutters home-recordings-section">
+                <div class="row contact-top">
+                    <div class="col-12">
+                        <p class="leading-text">Contact us</p>
+                        <div class="jay-quote festival-text">
+                        <p>We'd love to hear from you!</p>
+                    <!--    <p>The Jay String Quartet</p>
+                        <p>4 Clarence Road, Cheltenham. GL52 2AY. England</p>
+                        <p>6 Rue Cortot, Montmartre 75018 Paris, France</p> -->
+                        </div>
+                    </div>
+<!-- section: contact us form -->
+<!-- This is a Bootstrap form-->
+                    <form>
+                        <div class="form-group row">                            
+                            <label for="form-name" class="col-sm-3 col-form-label">Your name</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="form-name" rows="1"></textarea>
+                            </div>                            
+                        </div>
+                        <div class="form-group row">                            
+                            <label for="form-email" class="col-sm-3 col-form-label">Email address</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
+                            </div>                            
+                        </div>
+                        <div class="form-group row">                             
+                            <label for="form-text" class="col-sm-3 col-form-label">Your message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="form-text" rows="3"></textarea>
+                            </div>                                
+                        </div>
+                    </form>
+                    <div class="jay-quote festival-text">
+                        <p>The Jay String Quartet</p>
+                        <p>4 Clarence Road, Cheltenham. GL52 2AY. England</p>
+                        <p>6 Rue Cortot, Montmartre 75018 Paris, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Image -->
+
     <section>
     </section>
+<!-- section: children's festival-->
+   <section class="container-fluid bg-color-videos">
+        <div class="container sorolla-tiffany"> 
+            <div class="row no-gutters home-recordings-section">
+                <div class="col-12 col-lg-6 tiffany-painting recordings-md ptg-running">
+                <!-- <img class="img-fluid" src="assets/images/running.jpg"> -->
+                </div>
+                <div class="col-12 col-lg-6 jay-album" id="about-ptg-tiffany">
+                    <p><span class="album-quote">And one more thing ...</span></p>
+                    <p><span class="album-text">You don't need to start running yet, but we're thrilled to announce that next summer we'll be part of the European youth chamber music festival at the seaside at Valencia. Sun, sand, great food, and great music - something for everyone! We'll put more details here as soon as we have them.</span></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+   </section>
+
     <section>
     </section>
 
+ <!-- section: footer -->
     <footer class="container-fluid">
-        <div id="footer-details" class="row">
+        <div class="footer-details row">
+            <div class="col-sm-1">                
+            </div>            
             <div class="col-sm-8">
-            </div>
-            <div class="col-sm-4">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/?lang=en-gb">
@@ -83,13 +155,20 @@
                             <i class="fa fa-spotify fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
                         </a>
-                    </li>                    
+                    </li>                             
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.deezer.com/en/">
-                            <i class="fa fa-deezer fa-icon" aria-hidden="true"></i>
+                            <i class="fab fa-deezer fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
                     </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://soundcloud.com/">
+                            <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
+                            <span class="sr-only">Deezer</span>
+                        </a>
+                    </li>
+                    <!--
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.idagio.com/">                            
                                 <img src="assets/images/idagio-icon.png" class="music-icon" aria-hidden="true">
@@ -106,10 +185,11 @@
                         <a target="_blank" href="https://www.primephonic.com/">
                             <img src="assets/images/primephonic-icon.png" class="music-icon" aria-hidden="true">
                             <span class="sr-only">Primephonic</span>
+                            
                         </a>
-                    </li>                    
+                    </li> -->                  
                 </ul>
-            </div>
+            </div>            
         </div>          
     </footer>
     

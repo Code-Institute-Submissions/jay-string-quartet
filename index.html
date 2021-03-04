@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <title>Jay String Quartet</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> -->
+   <!-- One of the icons wouldn't load, so I needed to update manuallyto Font Awesome 5, with the addition of shims. The code had to be slightly updated as well-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -15,11 +18,9 @@
             <a class="navbar-brand" href="index.html">
                 <img src="/assets/images/jay.jpg" height="50px" alt="jay">
             </a>
-
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav header-text jnav-text ml-auto">
                     <li class="nav-item active">
@@ -61,7 +62,7 @@
             </div>
         </nav>     
     </header>
-    <!---------- section: hero image ---------->
+    <!-- section: hero image -->
     <section>
         <div class="container-fluid">
             <div class="row jay-top-01">
@@ -79,11 +80,11 @@
         </div>        
     </section>
     <!--This container and containers within it are taken from Bootstrap. I also benefitted from looking at and using code from another milestone project, https://mkthewlis.github.io/Milestone-Project-1/index.html, which my mentor shared with me. -->
-    <!---------- section: Sorolla-Tiffany ---------->
+    <!-- section: Sorolla-Tiffany -->
     <section class="container-fluid bg-color-tiffany">
         <div class="container sorolla-tiffany"> 
             <div class="row no-gutters home-recordings-section">
-                <div class="col-12 col-lg-6 tiffany-painting recordings-md" id="ptg-tiffany">
+                <div class="col-12 col-lg-6 tiffany-painting recordings-md ptg-tiffany">
                 <!-- <img class="img-fluid" src="assets/images/tiffany.jpg"> -->
                 </div>
                 <div class="col-12 col-lg-6 jay-album" id="about-ptg-tiffany">
@@ -158,12 +159,12 @@
             </div>
         </div>
     </section>
-<!---------- Footer ---------->
+<!-- section: footer -->
     <footer class="container-fluid">
         <div class="footer-details row">
-            <div class="col-sm-8">                
-            </div>
-            <div class="col-sm-4">
+            <div class="col-sm-1">                
+            </div>            
+            <div class="col-sm-8">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/?lang=en-gb">
@@ -176,15 +177,20 @@
                             <i class="fa fa-spotify fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
                         </a>
-                    </li> 
-                    <!--                   
+                    </li>                             
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.deezer.com/en/">
-                            <i class="fa fa-deezer fa-icon" aria-hidden="true"></i>
+                            <i class="fab fa-deezer fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
                     </li>
-                    -->
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://soundcloud.com/">
+                            <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
+                            <span class="sr-only">Deezer</span>
+                        </a>
+                    </li>
+                    <!--
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.idagio.com/">                            
                                 <img src="assets/images/idagio-icon.png" class="music-icon" aria-hidden="true">
@@ -201,10 +207,11 @@
                         <a target="_blank" href="https://www.primephonic.com/">
                             <img src="assets/images/primephonic-icon.png" class="music-icon" aria-hidden="true">
                             <span class="sr-only">Primephonic</span>
+                            
                         </a>
-                    </li>                    
+                    </li> -->                  
                 </ul>
-            </div>
+            </div>            
         </div>          
     </footer>
 
