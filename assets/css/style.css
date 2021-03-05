@@ -11,6 +11,9 @@ font-family: 'Rosario', sans-serif; */
     text-transform: uppercase;
 }
 
+.header-text {
+    color: #748795;
+}
  .heading-text-01 {
     font-family: 'Rosario', sans-serif;
     margin-top: 50px;    
@@ -27,6 +30,20 @@ font-family: 'Rosario', sans-serif; */
     font-weight: 700;
     margin-top: 50px;
     text-align: center;
+}
+
+.valencia-text {
+    font-family: 'Rosario', sans-serif;
+    font-size: 35px;
+    color: #43257F;
+    font-weight: 700;
+    border-top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: inline-block;
+    text-align: left;
+    margin: 5px;
+    padding-bottom: 5px;
 }
 
 .jay-quote {
@@ -54,8 +71,8 @@ font-family: 'Rosario', sans-serif; */
 }
 
 .festival-text {
-    display: inline-block;
-    text-align: left;
+ /*   display: inline-block;
+    text-align: left; */
     margin: 5px;
 }
 
@@ -100,6 +117,7 @@ font-family: 'Rosario', sans-serif; */
     background-repeat: no-repeat;
     background-size: cover;    
     min-height: 527px;
+
 }
 
 .ptg-running {
@@ -183,6 +201,7 @@ font-family: 'Rosario', sans-serif; */
     min-height: 527px;
     }
 
+/*
 #treble {
     margin-top: 20px;
     margin-right: -15px;
@@ -238,6 +257,11 @@ font-family: 'Rosario', sans-serif; */
 }
 
 /*
+#painting-music {
+    padding-top: 20px;
+}
+*/
+/*
 .beakfield {
     margin: px;
 }
@@ -279,9 +303,7 @@ font-family: 'Rosario', sans-serif; */
 
 /* ---------- Header ---------- */
 
-.header-text {
-    color: #748795;
-}
+
 
 .flex-item {
     text-align: right;
@@ -296,6 +318,7 @@ font-family: 'Rosario', sans-serif; */
 .jaynav {
     opacity: 1.0;
     background-color: #ffffff;
+    
 }
 
 /* ---------- Footer ---------- */
@@ -471,6 +494,11 @@ colourchart-image {
     margin-right: 30px;
 }
 
+.contact-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+}
 /*
 .recordings-title-sm {
 }
@@ -617,6 +645,12 @@ col- {
     padding-bottom: 20px;
 }
 
+.contact-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 70px
+
+}
 .col-12 {
     flex: 0 0 100%;
     max-width: 100%;

@@ -12,67 +12,43 @@
 <body>
     <header>
         <!-- A Bootstrap navbar is the basis for the navigation here. -->
-        <nav class="navbar fixed-top jaynav navbar-expand-lg navbar-light">            
+        <nav class="navbar fixed-top menu-bar jaynav navbar-expand-lg navbar-light">            
             <a class="navbar-brand" href="index.html">
-                <img src="/assets/images/jay.jpg" height="50px" alt="jay">
+                <img src="/assets/images/jay.jpg" height="50" alt="jay">
             </a>
-
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler menu-burger-icon collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav header-text jnav-text ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            <div class="navbar-collapse collapse" id="navbarNav">
+                <ul class="navbar-nav jnav-text ml-auto" id="menu-hover">
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About <span class="sr-only"></span></a>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="about.html">About</a>
                     </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="about.html" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">About
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">The quartet</a>
-                            <a class="dropdown-item" href="#">Bios</a>
-                            <a class="dropdown-item" href="#">Videos</a>
-                        </div>
+
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link menu-item" href="calendar.html">Calendar<span class="sr-only">(current)</span></a>
                     </li>
-                    -->
-                    <li class="nav-item">
-                        <a class="nav-link active" href="calendar.html">Calendar <span class="sr-only">(current)</span></a>
-                    </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">Music
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Concerts</a>
-                            <a class="dropdown-item" href="#">Recordings</a>
-                        </div>
-                    </li>
-                -->   
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>     
     </header>
-<!---------- section: festival ---------->
+<!-- section: festival -->
     <section class="container-fluid bg-color-tiffany">
         <div class="container sorolla-tiffany">
             <div class="row no-gutters home-recordings-section">
-                <div class="col-12 col-lg-6 tiffany-painting recordings-md beakfield beakfield-photo">
+                <div class="col-12 col-lg-6 tiffany-painting recordings-md beakfield beakfield-photo" alt="beakfield barns">
                 </div>
                 <!--
                 <img class="img-fluid" src="assets/images/beakfield-photo">
                 -->
                         <div class="col-12 col-lg-6 about-title">
-                <p><span class="leading-text">Beakfield Festival of Music & Painting</span></p>
+                <h1><span class="leading-text">Beakfield Festival of Music & Painting</span></h1>
                 <div class="album-text festival-text">
                     <p>We're thrilled to say that we've been able to bring musicians and painters together again at last at Beakfield for the fourth Beakfield Festival of Music and Painting.</p>
                     <p>Every year with friends and colleagues in the arts we put together a programme of music that is connected in some way to the visual arts.</p>
@@ -85,7 +61,7 @@
         </div>
         </div>
     </section>
-<!---------- section: calendar ---------->
+<!--section: calendar -->
 <!--The code for this calendar is taken from that of Simone Kermes, https://simone-kermes.de/calendar/ - I don't know 
     if it's an efficent way to do this, but it is interesting to learn about this option (giving the information 
     first in rows and then in a table for the different screen sizes), and I like the very clean result.-->
@@ -94,7 +70,7 @@
             <div class="row no-gutters home-recordings-section">                
                 <div class="col-12 col-lg-6 tiffany-painting recordings-md">
                     <div>
-                        <p class="leading-text">Upcoming events</p>
+                        <h1 class="leading-text">Upcoming events</h1>
                     </div>
                     <div id="portfolio-work">
                         <div class="visible-xs container">
@@ -170,11 +146,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 tiffany-painting recordings-md jaysq-photo-03">
+                <div class="col-12 col-lg-6 tiffany-painting recordings-md jaysq-photo-03" alt="violinist">
                 </div>
             </div>
         </div>
     </section>
+<!-- section: footer -->
     <footer class="container-fluid">
         <div class="footer-details row">
             <div class="col-sm-1">                
@@ -204,30 +181,17 @@
                             <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
-                    </li>
-                    <!--
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.idagio.com/">                            
-                                <img src="assets/images/idagio-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Idagio</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.qobuz.com/gb-en/discover">                        
-                                <img src="assets/images/qobuz-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Qobuz</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.primephonic.com/">
-                            <img src="assets/images/primephonic-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Primephonic</span>
-                            
-                        </a>
-                    </li> -->                  
+                    </li>            
                 </ul>
             </div>            
         </div>          
     </footer>
+<!-- JavaScript from Bootstrap to work the toggle on the Navbar -->
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -12,131 +12,97 @@
 <body>
     <header>
         <!-- A Bootstrap navbar is the basis for the navigation here. -->
-        <nav class="navbar fixed-top jaynav navbar-expand-lg navbar-light">            
+        <nav class="navbar menu-bar jaynav navbar-expand-lg navbar-light">            
             <a class="navbar-brand" href="index.html">
-                <img src="/assets/images/jay.jpg" height="50px" alt="jay">
+                <img src="/assets/images/jay.jpg" height="50" alt="jay">
             </a>
-
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler menu-burger-icon collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav header-text jnav-text ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            <div class="navbar-collapse collapse" id="navbarNav">
+                <ul class="navbar-nav jnav-text ml-auto" id="menu-hover">
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About <span class="sr-only"></span></a>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="about.html">About</a>
                     </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="about.html" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">About
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">The quartet</a>
-                            <a class="dropdown-item" href="#">Bios</a>
-                            <a class="dropdown-item" href="#">Videos</a>
-                        </div>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="calendar.html">Calendar</a>
                     </li>
-                    -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="calendar.html">Calendar <span class="sr-only"></span></a>
-                    </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">Music
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Concerts</a>
-                            <a class="dropdown-item" href="#">Recordings</a>
-                        </div>
-                    </li>
-                -->   
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link menu-item" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>     
     </header>
 <!-- section: contact us heading -->
-    <section class="container-fluid bg-color-tiffany">
-        <div class="container sorolla-tiffany">
-            <div class="row no-gutters home-recordings-section">
-                <div class="row contact-top">
-                    <div class="col-12">
-                        <p class="leading-text">Contact us</p>
-                        <div class="jay-quote festival-text">
-                        <p>We'd love to hear from you!</p>
-                    <!--    <p>The Jay String Quartet</p>
-                        <p>4 Clarence Road, Cheltenham. GL52 2AY. England</p>
-                        <p>6 Rue Cortot, Montmartre 75018 Paris, France</p> -->
-                        </div>
-                    </div>
-<!-- section: contact us form -->
-<!-- This is a Bootstrap form-->
-                    <form>
-                        <div class="form-group row">                            
-                            <label for="form-name" class="col-sm-3 col-form-label">Your name</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" id="form-name" rows="1"></textarea>
-                            </div>                            
-                        </div>
-                        <div class="form-group row">                            
-                            <label for="form-email" class="col-sm-3 col-form-label">Email address</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
-                            </div>                            
-                        </div>
-                        <div class="form-group row">                             
-                            <label for="form-text" class="col-sm-3 col-form-label">Your message</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" id="form-text" rows="3"></textarea>
-                            </div>                                
-                        </div>
-                    </form>
-                    <div class="jay-quote festival-text">
-                        <p>The Jay String Quartet</p>
-                        <p>4 Clarence Road, Cheltenham. GL52 2AY. England</p>
-                        <p>6 Rue Cortot, Montmartre 75018 Paris, France</p>
-                    </div>
-                </div>
+<section class="container-fluid bg-color-tiffany contact-section">
+    <div class="row no-gutters home-recordings-section">
+        <div class="col-12 az">
+            <h1 class="leading-text">Contact us</h1>
+            <div class="jay-quote festival-text">
+                <p>We'd love to hear from you!</p>
             </div>
         </div>
-    </section>
+    </div>
+    <div class="row bz">
+        <div class="col-6 cz">
+            <div class="row dz">
+                <div class="col-12 ez">
+                    <form>Contact form</form>
+                    <div class="form-group row">
+                        <label for="form-name" class="col-sm-3 col-form-label">Your name</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" id="form-name" rows="1"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="form-email" class="col-sm-3 col-form-label">Email address</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="form-text" class="col-sm-3 col-form-label">Your message</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" id="form-text" rows="3"></textarea>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-12 gz">
+                    <div class="jay-quote festival-text">
+                        <p>The Jay String Quartet</p>
+                        <p>4 Clarence Rd Cheltenham, England GL52 2AY</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="col-6 ccc">
+            <img class="img-fluid" src="assets/images/jaysq-photo-04.jpg" alt="jay string quartet violinist">
+        </div>
+    </div>
+</section>
 <!-- Image -->
 
     <section>
     </section>
 <!-- section: children's festival-->
    <section class="container-fluid bg-color-videos">
-        <div class="container sorolla-tiffany"> 
+      <!-- <div class="container sorolla-tiffany"> --> 
             <div class="row no-gutters home-recordings-section">
-                <div class="col-12 col-lg-6 tiffany-painting recordings-md ptg-running">
+                <div class="col-12 col-lg-6 tiffany-painting recordings-md ptg-running" alt="sorolla painting of children running">
                 <!-- <img class="img-fluid" src="assets/images/running.jpg"> -->
                 </div>
                 <div class="col-12 col-lg-6 jay-album" id="about-ptg-tiffany">
+                    <h1 class="valencia-text">Valencia youth chamber festival</h1>                    
                     <p><span class="album-quote">And one more thing ...</span></p>
                     <p><span class="album-text">You don't need to start running yet, but we're thrilled to announce that next summer we'll be part of the European youth chamber music festival at the seaside at Valencia. Sun, sand, great food, and great music - something for everyone! We'll put more details here as soon as we have them.</span></p>
                 </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-   </section>
-
-    <section>
+            </div>  
     </section>
-
  <!-- section: footer -->
     <footer class="container-fluid">
         <div class="footer-details row">
@@ -167,31 +133,17 @@
                             <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
-                    </li>
-                    <!--
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.idagio.com/">                            
-                                <img src="assets/images/idagio-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Idagio</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.qobuz.com/gb-en/discover">                        
-                                <img src="assets/images/qobuz-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Qobuz</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.primephonic.com/">
-                            <img src="assets/images/primephonic-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Primephonic</span>
-                            
-                        </a>
-                    </li> -->                  
+                    </li>               
                 </ul>
             </div>            
         </div>          
     </footer>
-    
+<!-- JavaScript from Bootstrap to work the toggle on the Navbar -->
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

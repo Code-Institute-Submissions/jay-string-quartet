@@ -14,49 +14,27 @@
 <body>
     <header>
         <!-- A Bootstrap navbar is the basis for the navigation here. -->
-        <nav class="navbar fixed-top jaynav navbar-expand-lg navbar-light">            
+        <nav class="navbar fixed-top menu-bar jaynav navbar-expand-lg navbar-light">            
             <a class="navbar-brand" href="index.html">
-                <img src="/assets/images/jay.jpg" height="50px" alt="jay">
+                <img src="/assets/images/jay.jpg" height="50" alt="jay">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler menu-burger-icon collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav header-text jnav-text ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <div class="navbar-collapse collapse" id="navbarNav"> 
+                <ul class="navbar-nav jnav-text ml-auto" id="menu-hover">
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link menu-item" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About <span class="sr-only"></span></a>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="about.html">About</a>
                     </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="about.html" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">About
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">The quartet</a>
-                            <a class="dropdown-item" href="#">Bios</a>
-                            <a class="dropdown-item" href="#">Videos</a>
-                        </div>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="calendar.html">Calendar</a>
                     </li>
-                    -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="calendar.html">Calendar <span class="sr-only"></span></a>
-                    </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">Music
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Concerts</a>
-                            <a class="dropdown-item" href="#">Recordings</a>
-                        </div>
-                    </li>
-                -->   
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -67,60 +45,61 @@
         <div class="container-fluid">
             <div class="row jay-top-01">
                 <div class="col jsq-photo-01">
-                    <img class="img-fluid" src="assets/images/jaysq-photo-01.jpg">
+                    <img class="img-fluid" src="assets/images/jaysq-photo-01.jpg" alt="jay string quartet">
              </div>
             </div>   
             <div class="row jay-top-02">
                 <div class="col">
-                    <p class="leading-text">Jay String Quartet</p>
+                    <h1 class="leading-text">Jay String Quartet</h1>
                     <p  class="jay-quote">"To hear the Jay String Quartet is to hear chamber music afresh and be
                         transported back to an earlier age ..." The Financial Times</p>
                 </div>
             </div>            
         </div>        
     </section>
-    <!--This container and containers within it are taken from Bootstrap. I also benefitted from looking at and using code from another milestone project, https://mkthewlis.github.io/Milestone-Project-1/index.html, which my mentor shared with me. -->
+    <!--This container is taken from Bootstrap. I also benefitted from looking at and using code from another milestone project, https://mkthewlis.github.io/Milestone-Project-1/index.html, which my mentor shared with me. -->
     <!-- section: Sorolla-Tiffany -->
     <section class="container-fluid bg-color-tiffany">
-        <div class="container sorolla-tiffany"> 
-            <div class="row no-gutters home-recordings-section">
-                <div class="col-12 col-lg-6 tiffany-painting recordings-md ptg-tiffany">
-                <!-- <img class="img-fluid" src="assets/images/tiffany.jpg"> -->
+        <h2 class="leading-text">Painting with music</h2>
+        <div class="sorolla-tiffany">
+            <div class="row no-gutters home-recordings-section">                                            
+                 <div class="col-12 col-lg-6 tiffany-painting recordings-md ptg-tiffany" alt="sorolla painting of tiffany"> 
+            <!--    <img class="img-fluid" src="assets/images/tiffany.jpg"> -->
                 </div>
                 <div class="col-12 col-lg-6 jay-album" id="about-ptg-tiffany">
-                    <p><span class="album-quote">“Gorgeous – the Jays evoke not just the visual world of the early twentieth century, but the breezes and summer blooms”</span>Gramophone</p>
+                    <h6><span class="album-quote">“Gorgeous – the Jays evoke not just the visual world of the early twentieth century, but the breezes and summer blooms”</span>Gramophone</h6>
                     <p><span class="album-text">Our new recording, <span class="italic">Painting with Music</span>, takes the two classic “impressionist” quartets of Debussy and Ravel, and sets them against a recording of the new work for string quartet by composer and painter Charlie Seaborn, “Fractured colour”, written for the Jay String Quartet.</span></p>
-                    <p><span class="album-text">Find out more:</span>
+                    <p><span class="album-text">Find out more:</span></p>
+                    <div>
                         <div id="sales-icons">                        
                             <a target="_blank" href="https://outhere-music.com/en/labels/alpha">
-                                <img src="assets/images/alpha-icon.jpg" width="40px" aria-hidden="true">
+                                <img src="assets/images/alpha-icon.jpg" alt="alpha icon" width="40" aria-hidden="true">
                                     <span class="sr-only">See more</span>
                             </a>
                         </div>
                         <div>
                             <a target="_blank" href="https://www.prestomusic.com/classical">
-                                <img src="assets/images/presto-icon.png" width="200px" aria-hidden="true">
+                                <img src="assets/images/presto-icon.png" alt="presto classical icon" width="200" aria-hidden="true">
                                     <span class="sr-only">See more</span>
                             </a>             
                         </div>
-                    </p>            
+                    </div>        
                 </div>
             </div>
         </div>
     </section>
-
-    <!---------- section: videos ---------->
-    <!-- videos are taken from the Barbican, Echea, Carducci and Omer quartets; some css was used from flaviocopes.com -->
+    <!--section: videos -->
+    <!-- videos are taken from the Barbican, Echea, Carducci, and Omer quartets; some css was used from flaviocopes.com -->
     <section class="container-fluid bg-color-videos">
         <div class="container jay-videos">
             <div class="row no-gutters home-recordings-section">
                         <div class="container container-video">
+                            <h2 class="leading-text">Watch us in concert</h2>
                         <div class="row">
                             <div class="col-sm">
                                 <div class="video">
                                     <div class="video-container" style="padding-top: 10px;">
-                                        <iframe width="675" height="379" src="https://www.youtube.com/embed/gyYjLGJMGQ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                        </iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gyYjLGJMGQ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -128,20 +107,18 @@
                             <div class="col-sm">
                                 <div class="video">
                                     <div class="video-container" style="padding-top: 10px;">
-                                        <iframe width="400" height="250" src="https://www.youtube.com/embed/OoPj5H8hFRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                        </iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OoPj5H8hFRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div>                        
                     </div>
-                                            <div class="container container-video">
+                    <div class="container container-video">
                         <div class="row">
                             <div class="col-sm">
                                 <div class="video">
                                     <div class="video-container" style="padding-top: 10px;">
-                                        <iframe width="1009" height="568" src="https://www.youtube.com/embed/E4NUMNlZLn4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                        </iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/E4NUMNlZLn4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -149,8 +126,7 @@
                             <div class="col-sm">
                                 <div class="video">
                                     <div class="video-container" style="padding-top: 10px;">
-                                        <iframe width="493" height="277" src="https://www.youtube.com/embed/f2RjniukVSo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                        </iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/f2RjniukVSo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -189,31 +165,17 @@
                             <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
-                    </li>
-                    <!--
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.idagio.com/">                            
-                                <img src="assets/images/idagio-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Idagio</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.qobuz.com/gb-en/discover">                        
-                                <img src="assets/images/qobuz-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Qobuz</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.primephonic.com/">
-                            <img src="assets/images/primephonic-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Primephonic</span>
-                            
-                        </a>
-                    </li> -->                  
+                    </li>    
                 </ul>
             </div>            
         </div>          
     </footer>
-
+<!-- JavaScript from Bootstrap to work the toggle on the Navbar -->
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

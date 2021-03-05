@@ -12,97 +12,73 @@
 <body>
     <header>
         <!-- A Bootstrap navbar is the basis for the navigation here. -->
-        <nav class="navbar fixed-top jaynav navbar-expand-lg navbar-light">            
+        <nav class="navbar fixed-top menu-bar jaynav navbar-expand-lg navbar-light">            
             <a class="navbar-brand" href="index.html">
-                <img src="/assets/images/jay.jpg" height="50px" alt="jay">
+                <img src="/assets/images/jay.jpg" height="50" alt="jay">
             </a>
-
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler menu-burger-icon collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav header-text jnav-text ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            <div class="navbar-collapse collapse" id="navbarNav">
+                <ul class="navbar-nav jnav-text ml-auto" id="menu-hover">
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link menu-item" href="about.html">About<span class="sr-only">(current)</span></a>
                     </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="about.html" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">About
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">The quartet</a>
-                            <a class="dropdown-item" href="#">Bios</a>
-                            <a class="dropdown-item" href="#">Videos</a>
-                        </div>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="calendar.html">Calendar</a>
                     </li>
-                    -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="calendar.html">Calendar <span class="sr-only"></span></a>
-                    </li>
-                    <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" 
-                        aria-haspopup="true" aria-expanded="false">Music
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Concerts</a>
-                            <a class="dropdown-item" href="#">Recordings</a>
-                        </div>
-                    </li>
-                -->   
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-item" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>     
     </header>
-<!---------- section: hero image ---------->
+<!-- section: hero image -->
     <section>
         <div class="container-fluid">
             <div class="row jay-top-01">
                 <div class="col jsq-photo-01">
-                    <img class="img-fluid" src="assets/images/jaysq-photo-02.jpg">
+                    <img class="img-fluid" src="assets/images/jaysq-photo-02.jpg" alt="jay string quartet playing">
              </div>
             </div>   
             <div class="row jay-top-02">
                 <div class="col">
-                    <p class="leading-text">About the Jay String Quartet</p>
+                    <h1 class="leading-text">About the Jay String Quartet</h1>
                     <p  class="jay-quote">"A new voice in chamber music ..." BBC Radio 3</p>
                 </div>
             </div>            
         </div>        
     </section>
-<!---------- section: About JSQ ---------->
+<!-- section: about JSQ -->
     <section class="container-fluid bg-color-tiffany">
         <div class="container sorolla-tiffany"> 
             <div class="row no-gutters home-recordings-section">             
                 <div class="col-12 col-lg-6 jay-album" id="about-ptg-tiffany">
-                    <p><span class="album-text">The Jay String Quartet is recognised as making an important new contribution to chamber music. They came together as a quartet in London in 2016, and quickly formed a bond over a shared enthusiasm for the music of the late nineteenth and early twentieth centuries. Following success at the Montreal prix, they have performed at major venues in North America, Europe, and Japan.</span></p>
+                    <h6><span class="album-text">The Jay String Quartet is recognised as making an important new contribution to chamber music. They came together as a quartet in London in 2016, and quickly formed a bond over a shared enthusiasm for the music of the late nineteenth and early twentieth centuries. Following success at the Montreal prix, they have performed at major venues in North America, Europe, and Japan.</span></h6>
                     <p><span class="album-text">We also work with composers and musicians in other genres, and are proud to have premiered a number of chamber pieces. We are devoted to all the arts and work with visual artists, choreographers, and writers in developing new work.</span></p>
                     <p><span class="album-text">The quartet is enthusiastically devoted to music in the community in the widest sense. We are keen supporters of the Strings for Schools initiative, and work closely with primary and secondary pupils. We are passionate about developing new voices, talents, and insights from different communities.</span></p>            
                 </div>
                 <div class="col-12 col-lg-6 tiffany-painting about-block recordings-md">
                     <div class="row">
                     <!--     <div class="photo-baby">-->
-                      <img class="img-fluid about-block photo-baby" src="assets/images/children-photo.jfif"> 
+                      <img class="img-fluid about-block photo-baby" src="assets/images/children-photo.jfif" alt="violinist meets baby"> 
                      <!--       </div>-->
                     </div>
                     <div class="row">
                       <!--    <div class="photo-children"> -->
-                          <img class="img-fluid about-block photo-children" src="assets/images/baby-photo.jpg">
+                          <img class="img-fluid about-block photo-children" src="assets/images/baby-photo.jpg" alt="children in string ensemble">
                     <!--     </div>-->
                     </div>
                 </div>               
             </div>
         </div>
     </section>
-<!---------- section: Bios ---------->
+<!-- section: bios -->
     <section class="container-fluid bg-color-videos">
         <div class="container jay-videos">            
             <div class="row no-gutters home-recordings-section">                
@@ -112,7 +88,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <div>
-                                    <img src="assets/images/kang.jpg" class="rounded-circle mr-3" height="100" width="100">
+                                    <img src="assets/images/kang.jpg" alt="hye-jung kang" class="rounded-circle mr-3" height="100" width="100">
                                 </div>
                                 <div>
                                     <h3 class="section-heading uppercase">Hye-Jung Kang</h3>
@@ -121,7 +97,7 @@
                             </div>
                             <div class="col-sm">
                                 <div>
-                                    <img src="assets/images/lelouche.jpg" class="rounded-circle mr-3" height="100" width="100">
+                                    <img src="assets/images/lelouche.jpg" alt="gilles lelouche" class="rounded-circle mr-3" height="100" width="100">
                                 </div>
                                 <div>
                                     <h3 class="section-heading uppercase">Gilles Lelouche</h3>
@@ -134,7 +110,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <div>
-                                    <img src="assets/images/fan.jpg" class="rounded-circle mr-3" height="100" width="100">
+                                    <img src="assets/images/fan.jpg" alt="leo fan" class="rounded-circle mr-3" height="100" width="100">
                                 </div>
                                 <div>
                                     <h3 class="section-heading uppercase">Leo Fan</h3>
@@ -143,7 +119,7 @@
                             </div>
                             <div class="col-sm">
                                 <div>
-                                    <img src="assets/images/dorval.jpg" class="rounded-circle mr-3" height="100" width="100">
+                                    <img src="assets/images/dorval.jpg" alt="anne dorval" class="rounded-circle mr-3" height="100" width="100">
                                 </div>
                                 <div>
                                     <h3 class="section-heading uppercase">Anne Dorval</h3>
@@ -191,32 +167,17 @@
                             <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
-                    </li>
-                    <!--
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.idagio.com/">                            
-                                <img src="assets/images/idagio-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Idagio</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.qobuz.com/gb-en/discover">                        
-                                <img src="assets/images/qobuz-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Qobuz</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.primephonic.com/">
-                            <img src="assets/images/primephonic-icon.png" class="music-icon" aria-hidden="true">
-                            <span class="sr-only">Primephonic</span>
-                            
-                        </a>
-                    </li> -->                  
+                    </li>           
                 </ul>
             </div>            
         </div>          
     </footer>
-
-
+<!-- JavaScript from Bootstrap to work the toggle on the Navbar -->
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
