@@ -28,7 +28,7 @@ font-family: 'Rosario', sans-serif; */
     font-size: 35px;
     color: #43257F;
     font-weight: 700;
-    margin-top: 50px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -48,6 +48,7 @@ font-family: 'Rosario', sans-serif; */
 
 .jay-quote {
     margin-top: 15px;
+    margin-bottom: 30px;
     font-family: 'Rosario', sans-serif;
     font-size: 16px;
     color: #43257F;
@@ -96,13 +97,13 @@ font-family: 'Rosario', sans-serif; */
 /* ---------- Colours ---------- */
 
 .bg-color-tiffany {
-    background-color: #d4d4d1;
+    background-color: #f3f3ee;
     margin-bottom: 0;
     padding-bottom: 5px;
 }
 
 .bg-color-videos {
-    background-color: #889C91;
+    background-color: #ffffff;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 5px;
@@ -164,17 +165,22 @@ font-family: 'Rosario', sans-serif; */
     background: url(../images/alpha-icon.png);
 }
 
+.unravelling-bolero {
+    background: url(../images/unravelling-bolero-ptg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    min-height: 527px;    
+}
+
 /* This code taken from https://flaviocopes.com/responsive-youtube-videos/ */
 .video-container {
     overflow: hidden;
     position: relative;
     width:100%;
-}
-
-.video-container::after {
-    padding-top: 56.25%;
+    padding-top: 50%;
     display: block;
-    content: '';
+    margin-bottom: 30px;
 }
 
 .video-container iframe {
@@ -185,11 +191,20 @@ font-family: 'Rosario', sans-serif; */
     height: 100%;
 }
 
-#ph-bk {
-    background: url(../images/beakfield-photo-01.jpg);
+/*
+.holding-text_for-semi-colon-error {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;
+    min-height: 527px;
+}
+*/
+
+#ph-bk {
+background: url(../images/beakfield-photo-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 527px;
 }
 
@@ -235,7 +250,7 @@ font-family: 'Rosario', sans-serif; */
     padding-right: 15px;
 }
 
-#about-ptg-tiffany {
+.about-ptg-tiffany {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 15px;
@@ -249,28 +264,37 @@ font-family: 'Rosario', sans-serif; */
     padding-right: 15px;
 }
 
-#about-videos {
+.about-videos {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 15px;
     padding-right: 10px;      
 }
 
+.section-two {
+    margin-left: 5px;
+}
+
+/*
+.@media screen and (max-width: 1300px)
+.contact-us {
+    position: static;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+*/
+.contact-us {
+    position: center;
+    text-align: center;
+}
 /*
 #painting-music {
     padding-top: 20px;
 }
 */
-/*
-.beakfield {
-    margin: px;
-}
-*/
-/*
-.container-video {
 
-}
-*/
 
 /* ---------- Media queries ---------- */
 
@@ -400,13 +424,14 @@ margin-left: auto;
     min-height: 527px;
 }
 
+/*
 .about-title {
     text-align: center;
     margin-top: 140px;
     padding-bottom: 50px;
     padding-right: 30px;
 }
-
+*/
 .about-block {
     margin-bottom: 20px;
     display: block;
@@ -456,6 +481,7 @@ margin-left: auto;
 
 /* ---------- Calendar page ---------- */
 
+/*
 .beakfield-photo {
     background: url(../images/beakfield-photo-01.jpg);
      opacity: 1;
@@ -464,7 +490,7 @@ margin-left: auto;
     background-size: cover;    
     min-height: 300px;
 }
-
+*/
 colourchart-image {
     background: url(../images/colourchart.jpg);
     opacity: 0.9;
@@ -518,7 +544,7 @@ hr {
     overflow-x: visible;
     overflow-y: visible;
 }
-
+/*
 hr {
     display: block;
     unicode-bidi: isolate;
@@ -530,7 +556,7 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
-
+*/
 /* connected
 .standard-divider {
     width: 450px;
@@ -558,6 +584,7 @@ connected*/
     background-color: rgba(255, 255, 255);
 }
 
+
 .tiffany-painting {
     background-position: center;
     background-size: cover;
@@ -568,11 +595,6 @@ connected*/
     padding-right: 0px;
     margin-top: 0px;
 }
-
-/*
-.recordings-md {
-}
-*/
 
 /* ---------- Calendar ---------- */
 #portfolio-work {
