@@ -181,9 +181,18 @@ NOTE: Although I use photos of a real quartet and other musicians, the Jay Strin
 
 # Testing
 ## Validators
-1. W3c Markup Validator – results
-* Note – the validator found the embed code for the YouTube videos to be incorrect, but it was taken directly from YouTube
-2. W3C CSS Validator – results
+1. W3c Markup Validator
+* ![results home](assets/images/Screenshot_2021-03-07_215418_W3C_index.png)
+* ![results about](assets/images/Screenshot_2021-03-07_215512_W3C_about.png)
+* ![results calendar](assets/images/Screenshot_2021-03-07_215639_W3C_calendar.png)
+* ![results contact](assets/images/Screenshot_2021-03-07_215749_W3C_contact.png)
+
+2. W3C CSS Validator
+* ![results css](assets/images/Screenshot_2021-03-07_214429_W3C-css.png)
+
+3. Lighthouse
+* ![results desktop](https://gist.github.com/james-lancaster/a7e07b985b3b4a8cc1ca1853146d8454)
+* ![results mobile](https://gist.github.com/james-lancaster/4de09a5cbc577f07f250c273d48a037f)
 
 ## Testing user stories
 1. As a first time visitor
@@ -241,11 +250,15 @@ NOTE: Although I use photos of a real quartet and other musicians, the Jay Strin
 ## Further testing
 1. For desktop and laptop, the website was tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari browsers on desktop
 2. For mobile phones, the website was tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and Opera on Android and iPhones. I note that GitHub would not load on Firefox on an Android.
-3. Links were extensively checked and layout examined
+3. Links were comprehensively checked and layout examined carefully
 4. Friends and family were asked to comment on the site
+5. This generated some issues (see Known bugs, below).
 
 ## Known bugs
 1. Since the wireframe was not successful, I didn’t have a good enough overall structure of the site. This meant that a repeated process was required as bugs became apparent, were fixed, and became elsewhere. This meant a process of re-reading Bootstrap and course notes, checking on StackOverflow and W3Schools etc, seeking tutor support, returning to sources for help, etc. I wouldn’t recommend this as a way to work but it’s been a good learning experience. I say this because I suspect that while the code generally works, to a practised eye it would look bodged up – no point avoiding the problem in the README!
+2. Two bugs I have not been able to eliminate are
+* The main image on the Calendar page does not centre, despite the code being the same as on other pages.
+* I am not satsified with some aspects of the site's responsiveness inbetween mobile and laptop screens.
 
 # Deployment
 ## GitHub Pages

@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<!-- section: header -->
     <header>
-        <!-- A Bootstrap navbar is the basis for the navigation here. -->
+<!-- A Bootstrap navbar is the basis for the navigation here. -->
         <nav class="navbar fixed-top menu-bar jaynav navbar-expand-lg navbar-light">            
             <a class="navbar-brand" href="index.html">
                 <img src="/assets/images/jay.jpg" height="50" alt="jay">
@@ -38,48 +39,50 @@
             </div>
         </nav>     
     </header>
-<!--section: festival and calendar overview-->
+
     <section>
-        <div class="container-fluid jay-top-01 col jsq-photo-01">
-            <img class="img-fluid" src="assets/images/beakfield-photo-01.jpg" alt="beakfield barns">
-            <div class="row jay-top-02">
+        <div class="container-fluid">
+            <div class="row jay-top-01">
                 <div class="col">
                     <h1 class="leading-text">Beakfield Festival of Music & Painting</h1>
-                    <p></p>
                 </div>
-            </div>            
-        </div>     
+            </div>
+            <div class="row jay-top-02">
+                <div class="col jsq-photo-01">
+                    <img class="img-fluid" src="assets/images/barns-photo_3-2.jpg" alt="beakfield barns">
+             </div>
+            </div>   
+                       
+        </div>
     </section>
 <!-- section: festival -->
-    <section class="container-fluid bg-color-tiffany sorolla-tiffany">
+    <section class="container-fluid bg-color-tiffany">
         <h2 class="leading-text">Music and colour</h2>
-        <div class="row no-gutters">
-            <div class="col-12 col-lg-6 unravelling-bolero">
-                <!-- <img class="img-fluid" src="assets/images/unravelling-bolero-ptg.jpg" alt="unravelling bolero"> -->
+        <div class="row no-gutters sorolla-tiffany">
+            <div class="col-sm-6 unravelling-bolero">
             </div>
-            <div class="col-12 col-lg-6 section-two">
-                <div class="album-text">
-                    <p>We're thrilled to say that we've been able to bring musicians and painters together again at last at 
-                        Beakfield for the fourth Beakfield Festival of Music and Painting.</p>
-                    <p>Every year with friends and colleagues in the arts we put together a programme of music that is 
-                        connected in some way to the visual arts.</p>
-                    <p>This year the theme will be "music and colour".</p>
+            <div class="col-sm-6">
+                <div class="col-pa">                   
+                    <p><span class="album-text">We're thrilled to say that we've been able to bring musicians and painters together again at last at 
+                        Beakfield for the fourth Beakfield Festival of Music and Painting.</span></p>
+                    <p><span class="album-text">Every year with friends and colleagues in the arts we put together a programme of music that is 
+                        connected in some way to the visual arts.</span></p>
+                    <p><span class="album-text">This year the theme will be "music and colour".</span></p>
                     <p><a target="_blank" href="https://www.wingfieldbarns.com/">Find out more</a></p>
-                    <p>The painting is <span class="italic">Unravelling Bolero</span> by Anne Adams, a bar-by-bar representation 
-                        of the popular classical piece Boléro by Maurice Ravel.</p>
+                    <p><span class="album-text">The painting is <span class="italic">Unravelling Bolero</span> by Anne Adams, a bar-by-bar representation 
+                        of the popular work Boléro by Maurice Ravel.</span></p>
                 </div>
             </div>
         </div>
     </section>
-
 <!--section: calendar -->
 <!--The code for this calendar is taken from that of Simone Kermes, https://simone-kermes.de/calendar/ - I don't know 
     if it's an efficent way to do this, but it is interesting to learn about this option (giving the information 
-    first in rows and then in a table for the different screen sizes), and I like the very clean result.-->
+    first in rows and then in a table for the different screen sizes), but it gives a clean result.-->
     <section class="container-fluid bg-color-videos">
         <div class="container jay-videos">
             <div class="row no-gutters home-recordings-section">                
-                <div class="col-12 col-lg-6 tiffany-painting recordings-md">
+                <div class="col-12 col-lg-6 tiffany-painting">
                     <div>
                         <h1 class="leading-text">Upcoming events</h1>
                     </div>
@@ -156,17 +159,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 tiffany-painting recordings-md jaysq-photo-03" alt="violinist">
+                <div class="col-12 col-lg-6 tiffany-painting recordings-md jaysq-photo-03">
                 </div>
             </div>
         </div>
     </section>
 <!-- section: footer -->
     <footer class="container-fluid">
-        <div class="footer-details row">
-            <div class="col-sm-1">                
-            </div>            
-            <div class="col-sm-8">
+        <div class="footer-details row"> 
+            <div class="col-6 mx-auto">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/?lang=en-gb">
@@ -191,7 +192,7 @@
                             <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
-                    </li>            
+                    </li>               
                 </ul>
             </div>            
         </div>          

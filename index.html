@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <title>Jay String Quartet</title>
    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> -->
-   <!-- One of the icons wouldn't load, so I needed to update manuallyto Font Awesome 5, with the addition of shims. The code had to be slightly updated as well-->
+   <!-- One of the icons wouldn't load, so I needed to update manually to Font Awesome 5, with the addition of shims. The code had to be slightly updated as well-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<!-- section: header-->
     <header>
-        <!-- A Bootstrap navbar is the basis for the navigation here. -->
+<!-- A Bootstrap navbar is the basis for the navigation here. -->
         <nav class="navbar fixed-top menu-bar jaynav navbar-expand-lg navbar-light">            
             <a class="navbar-brand" href="index.html">
                 <img src="/assets/images/jay.jpg" height="50" alt="jay">
@@ -40,7 +41,7 @@
             </div>
         </nav>     
     </header>
-    <!-- section: hero image -->
+<!-- section: hero image -->
     <section>
         <div class="container-fluid">
             <div class="row jay-top-01">
@@ -57,73 +58,63 @@
             </div>            
         </div>        
     </section>
-    <!--This container is taken from Bootstrap. I also benefitted from looking at and using code from another milestone project, https://mkthewlis.github.io/Milestone-Project-1/index.html, which my mentor shared with me. -->
-    <!-- section: Sorolla-Tiffany -->
+<!--This container is taken from Bootstrap. I also benefitted from looking at and using code from another milestone project, https://mkthewlis.github.io/Milestone-Project-1/index.html, which my mentor shared with me. -->
+<!-- section: Painting with music album and reviews -->
     <section class="container-fluid bg-color-tiffany">
+        <div class="row">
         <h2 class="leading-text">Painting with music</h2>
-        <div class="sorolla-tiffany">
-            <div class="row no-gutters home-recordings-section">                                            
-                 <div class="col-12 col-lg-6 tiffany-painting recordings-md ptg-tiffany" alt="sorolla painting of tiffany"> 
-            <!--    <img class="img-fluid" src="assets/images/tiffany.jpg"> -->
+        </div>
+        <div class="row sorolla-tiffany no-gutters home-recordings-section col-space">
+            <div class="col-12 col-lg-6 tiffany-painting ptg-tiffany">
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="col-pa">
+                <p><span class="album-quote">“Gorgeous – the Jays evoke not just the visual world of the early twentieth century, but the breezes and summer blooms”</span><span class="album-text">Gramophone</span></p>
+                <p><span class="album-text">Our new recording, <span class="italic">Painting with Music</span>, takes the two classic “impressionist” quartets of Debussy and Ravel, and sets them against a recording of the new work 
+                    for string quartet by composer and painter Charlie Seaborn. “Fractured colour” was written especially for the Jay String Quartet, at a time when our visual world has never been more varied or fractured.</span></p>
+                <p><span class="album-quote">“There's a fluidity to the Jay’s playing of both works that suits the music's character, a mood of wistfulness too that the Ravel especially benefits from.”</span><span class="album-text">The Sunday Times</span></p>
+                <p><span class="album-quote">“I wondered whether there was anything new to be said about these two incessantly recorded and frequently paired works. Happily the answer is 'yes'.”</span><span class="album-text">Presto Classical</span></p>
+                <p><span class="album-text">Find out more:</span></p>
+                <div id="sales-icons">
+                    <a target="_blank" href="https://outhere-music.com/en/labels/alpha">
+                        <img src="assets/images/alpha-icon.jpg" alt="alpha icon" width="40" aria-hidden="true"><span class="sr-only">
+                        See more</span>
+                    </a>
                 </div>
-                <div class="col-12 col-lg-6 jay-album" id="about-ptg-tiffany">
-                    <div>
-                        <p><span class="album-quote">“Gorgeous – the Jays evoke not just the visual world of the early twentieth century, but the breezes and summer blooms”</span>Gramophone</p>
-                    </div>
-                    <div>
-                        <p><span class="album-text">Our new recording, <span class="italic">Painting with Music</span>, takes the two classic “impressionist” quartets of Debussy and Ravel, and sets them against a recording of the new work for string quartet by composer and painter Charlie Seaborn. “Fractured colour” was written especially for the Jay String Quartet, at a time when our visual world has never been more varied or fractured.</span></p>
-                    </div>
-                    <div>
-                        <p><span class="album-quote">“There's a fluidity to the Jay’s playing of both works that suits the music's character, a mood of wistfulness too that the Ravel especially benefits from.” The Sunday Times</span></p>
-                    </div>
-                    <div>
-                        <p><span class="album-quote">“I wondered whether there was anything new to be said about these two incessantly recorded and frequently paired works. Happily the answer is 'yes'.” Presto Classical</span></p>
-                    </div>
-                    <div>
-                        <p><span class="album-text">Find out more:</span></p>
-                    </div>
-                    <div>
-                        <div id="sales-icons">                        
-                            <a target="_blank" href="https://outhere-music.com/en/labels/alpha">
-                                <img src="assets/images/alpha-icon.jpg" alt="alpha icon" width="40" aria-hidden="true">
-                                    <span class="sr-only">See more</span>
-                            </a>
-                        </div>
-                        <div>
-                            <a target="_blank" href="https://www.prestomusic.com/classical">
-                                <img src="assets/images/presto-icon.png" alt="presto classical icon" width="200" aria-hidden="true">
-                                    <span class="sr-only">See more</span>
-                            </a>             
-                        </div>
-                    </div>        
+                <div>
+                    <a target="_blank" href="https://www.prestomusic.com/classical">
+                        <img src="assets/images/presto-icon.png" alt="presto classical icon" width="200" aria-hidden="true">
+                        <span class="sr-only">See more</span>
+                    </a>
+                </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--section: videos -->
-    <!-- videos are taken from the Barbican, Echea, Carducci, and Omer quartets; some css was used from flaviocopes.com -->
-    <section class="container bg-color-videos">
+<!--section: videos -->
+<!-- videos are taken from the Barbican, Echea, Carducci, and Omer quartets; some css was used from flaviocopes.com -->
+    <section class="container-fluid bg-color-videos">
         <h2 class="leading-text">Watch us in concert</h2>
-        <div class="container jay-videos container-video">
+        <div class="container-fluid jay-videos container-video">
             <div class="row home-recordings-section">
-                <div class="col-6">
+                <div class="col-sm-6">
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/gyYjLGJMGQ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/gyYjLGJMGQ8" class="iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/OoPj5H8hFRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/OoPj5H8hFRA" class="iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/E4NUMNlZLn4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/E4NUMNlZLn4" class="iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/f2RjniukVSo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/f2RjniukVSo" class="iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -131,10 +122,8 @@
     </section>
 <!-- section: footer -->
     <footer class="container-fluid">
-        <div class="footer-details row">
-            <div class="col-sm-1">                
-            </div>            
-            <div class="col-sm-8">
+        <div class="footer-details row"> 
+            <div class="col-6 mx-auto">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/?lang=en-gb">
@@ -159,7 +148,7 @@
                             <i class="fab fa-soundcloud fa-icon" aria-hidden="true"></i>
                             <span class="sr-only">Deezer</span>
                         </a>
-                    </li>    
+                    </li>               
                 </ul>
             </div>            
         </div>          
