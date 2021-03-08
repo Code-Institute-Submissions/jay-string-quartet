@@ -191,8 +191,8 @@ NOTE: Although I use photos of a real quartet and other musicians, the Jay Strin
 * ![results css](assets/images/Screenshot_2021-03-07_214429_W3C-css.png)
 
 3. Lighthouse
-* ![results desktop](https://gist.github.com/james-lancaster/a7e07b985b3b4a8cc1ca1853146d8454)
-* ![results mobile](https://gist.github.com/james-lancaster/4de09a5cbc577f07f250c273d48a037f)
+* [results desktop](https://gist.github.com/james-lancaster/a7e07b985b3b4a8cc1ca1853146d8454)
+* [results mobile](https://gist.github.com/james-lancaster/4de09a5cbc577f07f250c273d48a037f)
 
 ## Testing user stories
 1. As a first time visitor
