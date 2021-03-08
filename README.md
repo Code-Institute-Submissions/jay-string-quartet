@@ -247,6 +247,16 @@ NOTE: Although I use photos of a real quartet and other musicians, the Jay Strin
 * have access to biographical and other information
   * Details of the quartet and its members are on the about page
 
+5. User views
+* ![Home](assets/images/user-home.png)
+  * The user can follow links to buy music, and can watch videos of performances
+* ![About](assets/images/user-about.png)
+  * The user can read information about the quartet and its members
+* ![Calendar](assets/images/user-calendar.png)
+  * The user can find out information and book tickets for the festival and for concerts
+* ![Contact](assets/images/user-contact.png)
+  * The user can contact the quartet; they can also in the footer access music streaming
+
 ## Further testing
 1. For desktop and laptop, the website was tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari browsers on desktop
 2. For mobile phones, the website was tested on Google Chrome, Microsoft Edge, Mozilla Firefox, and Opera on Android and iPhones. I note that GitHub would not load on Firefox on an Android.
@@ -301,7 +311,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 1. Bootstrap was used for the navigation bar, including jQuery
 2. The code for the calendar is taken from that of [Simone Kermes](https://simone-kermes.de/calendar /) - I don't know if it's an efficient way to do this, but it is interesting to learn about this option (giving the information first in rows and then in a table for the different screen sizes), and I like the very clean result.
 3. The contact form is from Bootstrap
-4. Videos – additional css from https://flaviocopes.com/ 
+4. Videos – additional css from
+* [Flavio Copes](https://flaviocopes.com/responsive-youtube-videos/)
+* [StackOverflow](https://stackoverflow.com/questions/26274082/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead)
 5. I benefitted greatly from closely looking at other students’ work, which my mentor shared with me
 * The milestone project of Miranda Thewlis, https://mkthewlis.github.io/Milestone-Project-1/index.html,
 * The README from the milestone project of Rebecca Tracey-Timoney, https://github.com/rebeccatraceyt/KryanLive  
